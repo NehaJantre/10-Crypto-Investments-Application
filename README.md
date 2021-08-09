@@ -1,12 +1,46 @@
 # FinTech-Module-10-Challenge
-FinTech-Module-10-Challenge## This application consists of 2 parks:
-A financial planner for emergencies: The members will be able to use this tool to visualize their current savings. The members can then determine if they have enough reserves for an emergency fund.
+## Application:
+In this Challenge, you’ll assume the role of an advisor in one of the top five financial advisory firms in the world. Competitors are fierce, so you want to propose a novel approach to assembling investment portfolios that are based on cryptocurrencies. Instead of basing your proposal on only returns and volatility, you want to include other factors that might impact the crypto market—leading to better performance for your portfolio.
 
-A financial planner for retirement: This tool will forecast the performance of their retirement portfolio in 30 years. To do this, the tool will make an Alpaca API call via the Alpaca SDK to get historical price data for use in Monte Carlo simulations.
+When you present the idea, your manager loves it! So, you’re asked to create a prototype for submitting your crypto portfolio proposal to the company board of directors.
 
 
-This is a python command-line interface application that uses the information from the Monte Carlo simulation to answer questions about the portfolio.
+---
+## Technologies
 
+In this challenge, you’ll use [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/) and the following  **[python version 3.8.5](https://www.python.org/downloads/)** libraries:
+
+* [scikit-learn](https://scikit-learn.org/stable/)
+*  [hvPlot](https://hvplot.holoviz.org/index.html)
+* [pandas](https://pandas.pydata.org/docs/)
+
+---
+## Installation Guide
+
+
+  ### To check that scikit-learn and hvPlot are installed in your Conda dev environment, complete the following steps:
+
+  ### 1. Activate your Conda dev environment (if it isn’t already) by running the following in your terminal:
+```
+conda activate dev
+```
+### 2. When the environment is active, run the following in your terminal:
+```
+conda list scikit-learn
+conda list hvplot
+```
+### If the scikit-learn and hvPlot libraries are installed on your machine, your terminal will display the following:
+![](Images/scikitlearn-hvplot-confirm.png)
+### If you see scikit-learn and hvPlot listed in the terminal, you’re all set!
+
+  ### 1. Install scikit-learn
+```
+pip install -U scikit-learn
+```
+### 2. Install hvPlot
+```
+conda install -c pyviz hvplot
+```
 ---
 ## Usage
 
@@ -21,20 +55,13 @@ Upon launching the application in Jupyter lab notebook, run the file by using th
 ![run](Images/run.png)
 
 ---
-## Steps to create Monte Carlo Simulation
+Examples:
+In this application, these are the analysis we did using elbow curve and scatter lots:
 
-### Create the Monte Carlo Simulation
-Make an API call via the Alpaca SDK to get 10 years of historical closing prices for a traditional 60/40 portfolio split: 60% stocks (SPY) and 40% bonds (AGG).
-
-Run a Monte Carlo simulation of 500 samples and 30 years for the 60/40 portfolio, and then plot the results. The following image shows the overlay line plot resulting from a simulation with these characteristics. However, because a random number generator is used to run each live Monte Carlo simulation, your image will differ slightly from this exact image:
-![Create the Monte Carlo Simulation](Images/5-4-monte-carlo-line-plot.png)
-Plot the probability distribution of the Monte Carlo simulation. The following image shows the histogram plot resulting from a simulation with these characteristics. However, because a random number generator is used to run each live Monte Carlo simulation, your image will differ slightly from this exact image:
-
-![Create the Monte Carlo Simulation](Images/5-4-monte-carlo-histogram.png)
-
-
-
-
+![run](Images/elbowcurve.png)
+![run](Images/scatterplot-pricechange.png)
+![run](Images/k4scatterplot.png)
+![run](Images/k5scatterplot.png)
 
 ---
 

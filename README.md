@@ -60,8 +60,8 @@ In this application, these are the analysis we did using elbow curve and scatter
 
 ![elbowcurve](Images/elbowcurve.png)
 ![scatterplot-pricechange](Images/scatterplot-pricechange.png)
-![k4scatterplot](Images/k4scatterplot.png)
-![k5scatterplot](Images/k5scatterplot.png)
+![k4scatterplot](Images/k4scatterplot.PNG)
+![k5scatterplot](Images/k5scatterplot.PNG)
 
 ---
 

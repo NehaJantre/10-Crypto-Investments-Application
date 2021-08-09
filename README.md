@@ -58,10 +58,10 @@ Upon launching the application in Jupyter lab notebook, run the file by using th
 Examples:
 In this application, these are the analysis we did using elbow curve and scatter lots:
 
-![run](Images/elbowcurve.png)
-![run](Images/scatterplot-pricechange.png)
-![run](Images/k4scatterplot.png)
-![run](Images/k5scatterplot.png)
+![elbowcurve](Images/elbowcurve.png)
+![scatterplot-pricechange](Images/scatterplot-pricechange.png)
+![k4scatterplot](Images/k4scatterplot.png)
+![k5scatterplot](Images/k5scatterplot.png)
 
 ---
 
